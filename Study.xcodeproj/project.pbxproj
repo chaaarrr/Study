@@ -13,6 +13,19 @@
 		E8C03E261AAFF7FE0098E5D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E251AAFF7FE0098E5D1 /* Images.xcassets */; };
 		E8C03E291AAFF7FE0098E5D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E271AAFF7FE0098E5D1 /* LaunchScreen.xib */; };
 		E8C03E351AAFF7FE0098E5D1 /* StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C03E341AAFF7FE0098E5D1 /* StudyTests.swift */; };
+		E8C03E4A1AAFFA030098E5D1 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E3F1AAFFA030098E5D1 /* 2.jpg */; };
+		E8C03E4B1AAFFA030098E5D1 /* daimei1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E401AAFFA030098E5D1 /* daimei1.jpg */; };
+		E8C03E4C1AAFFA030098E5D1 /* daimei1.png in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E411AAFFA030098E5D1 /* daimei1.png */; };
+		E8C03E4D1AAFFA030098E5D1 /* girl1.png in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E421AAFFA030098E5D1 /* girl1.png */; };
+		E8C03E4E1AAFFA030098E5D1 /* girl2.png in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E431AAFFA030098E5D1 /* girl2.png */; };
+		E8C03E4F1AAFFA030098E5D1 /* haikei.gif in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E441AAFFA030098E5D1 /* haikei.gif */; };
+		E8C03E501AAFFA030098E5D1 /* heya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E451AAFFA030098E5D1 /* heya.jpg */; };
+		E8C03E511AAFFA030098E5D1 /* kyoushitu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E461AAFFA030098E5D1 /* kyoushitu.jpg */; };
+		E8C03E521AAFFA030098E5D1 /* seimon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E471AAFFA030098E5D1 /* seimon.jpg */; };
+		E8C03E531AAFFA030098E5D1 /* speaker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E481AAFFA030098E5D1 /* speaker.jpg */; };
+		E8C03E541AAFFA030098E5D1 /* title.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E491AAFFA030098E5D1 /* title.jpg */; };
+		E8C03E561AAFFA700098E5D1 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C03E551AAFFA700098E5D1 /* TimerViewController.swift */; };
+		E8C03E581AAFFAD00098E5D1 /* voice1.WAV in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E571AAFFAD00098E5D1 /* voice1.WAV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,19 @@
 		E8C03E2E1AAFF7FE0098E5D1 /* StudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C03E331AAFF7FE0098E5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C03E341AAFF7FE0098E5D1 /* StudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTests.swift; sourceTree = "<group>"; };
+		E8C03E3F1AAFFA030098E5D1 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		E8C03E401AAFFA030098E5D1 /* daimei1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daimei1.jpg; sourceTree = "<group>"; };
+		E8C03E411AAFFA030098E5D1 /* daimei1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daimei1.png; sourceTree = "<group>"; };
+		E8C03E421AAFFA030098E5D1 /* girl1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl1.png; sourceTree = "<group>"; };
+		E8C03E431AAFFA030098E5D1 /* girl2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl2.png; sourceTree = "<group>"; };
+		E8C03E441AAFFA030098E5D1 /* haikei.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = haikei.gif; sourceTree = "<group>"; };
+		E8C03E451AAFFA030098E5D1 /* heya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heya.jpg; sourceTree = "<group>"; };
+		E8C03E461AAFFA030098E5D1 /* kyoushitu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyoushitu.jpg; sourceTree = "<group>"; };
+		E8C03E471AAFFA030098E5D1 /* seimon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seimon.jpg; sourceTree = "<group>"; };
+		E8C03E481AAFFA030098E5D1 /* speaker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = speaker.jpg; sourceTree = "<group>"; };
+		E8C03E491AAFFA030098E5D1 /* title.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = title.jpg; sourceTree = "<group>"; };
+		E8C03E551AAFFA700098E5D1 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		E8C03E571AAFFAD00098E5D1 /* voice1.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = voice1.WAV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +105,12 @@
 			children = (
 				E8C03E1E1AAFF7FE0098E5D1 /* AppDelegate.swift */,
 				E8C03E201AAFF7FE0098E5D1 /* ViewController.swift */,
-				E8C03E221AAFF7FE0098E5D1 /* Main.storyboard */,
+				E8C03E551AAFFA700098E5D1 /* TimerViewController.swift */,
 				E8C03E251AAFF7FE0098E5D1 /* Images.xcassets */,
+				E8C03E221AAFF7FE0098E5D1 /* Main.storyboard */,
 				E8C03E271AAFF7FE0098E5D1 /* LaunchScreen.xib */,
+				E8C03E571AAFFAD00098E5D1 /* voice1.WAV */,
+				E8C03E3E1AAFF9F20098E5D1 /* img */,
 				E8C03E1C1AAFF7FE0098E5D1 /* Supporting Files */,
 			);
 			path = Study;
@@ -110,6 +139,24 @@
 				E8C03E331AAFF7FE0098E5D1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8C03E3E1AAFF9F20098E5D1 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				E8C03E3F1AAFFA030098E5D1 /* 2.jpg */,
+				E8C03E401AAFFA030098E5D1 /* daimei1.jpg */,
+				E8C03E411AAFFA030098E5D1 /* daimei1.png */,
+				E8C03E421AAFFA030098E5D1 /* girl1.png */,
+				E8C03E431AAFFA030098E5D1 /* girl2.png */,
+				E8C03E441AAFFA030098E5D1 /* haikei.gif */,
+				E8C03E451AAFFA030098E5D1 /* heya.jpg */,
+				E8C03E461AAFFA030098E5D1 /* kyoushitu.jpg */,
+				E8C03E471AAFFA030098E5D1 /* seimon.jpg */,
+				E8C03E481AAFFA030098E5D1 /* speaker.jpg */,
+				E8C03E491AAFFA030098E5D1 /* title.jpg */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +239,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C03E4C1AAFFA030098E5D1 /* daimei1.png in Resources */,
 				E8C03E241AAFF7FE0098E5D1 /* Main.storyboard in Resources */,
+				E8C03E541AAFFA030098E5D1 /* title.jpg in Resources */,
+				E8C03E511AAFFA030098E5D1 /* kyoushitu.jpg in Resources */,
 				E8C03E291AAFF7FE0098E5D1 /* LaunchScreen.xib in Resources */,
+				E8C03E4F1AAFFA030098E5D1 /* haikei.gif in Resources */,
+				E8C03E4B1AAFFA030098E5D1 /* daimei1.jpg in Resources */,
+				E8C03E531AAFFA030098E5D1 /* speaker.jpg in Resources */,
+				E8C03E4E1AAFFA030098E5D1 /* girl2.png in Resources */,
+				E8C03E501AAFFA030098E5D1 /* heya.jpg in Resources */,
+				E8C03E581AAFFAD00098E5D1 /* voice1.WAV in Resources */,
+				E8C03E521AAFFA030098E5D1 /* seimon.jpg in Resources */,
+				E8C03E4D1AAFFA030098E5D1 /* girl1.png in Resources */,
+				E8C03E4A1AAFFA030098E5D1 /* 2.jpg in Resources */,
 				E8C03E261AAFF7FE0098E5D1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8C03E211AAFF7FE0098E5D1 /* ViewController.swift in Sources */,
+				E8C03E561AAFFA700098E5D1 /* TimerViewController.swift in Sources */,
 				E8C03E1F1AAFF7FE0098E5D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +465,7 @@
 				E8C03E3A1AAFF7FE0098E5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8C03E3B1AAFF7FE0098E5D1 /* Build configuration list for PBXNativeTarget "StudyTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +474,7 @@
 				E8C03E3D1AAFF7FE0098E5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
