@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    //ぬるぽ
+    //ちゃー
 
     override func viewDidLoad() {
         super.viewDidLoad()
