@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import AVFoundation
 
-class TimerViewController: UIViewController,AVAudioPlayerDelegate {
+
+class TimerViewController: UIViewController {
     
     var timer : NSTimer!
     var cnt :Int = 0
@@ -34,16 +34,11 @@ class TimerViewController: UIViewController,AVAudioPlayerDelegate {
     @IBOutlet var labelfun : UILabel!
     @IBOutlet var button : UIButton!
     
-    var audioPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("voice1", ofType: "WAV")!)
-    var player = AVAudioPlayer()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        player = AVAudioPlayer(contentsOfURL: audioPath, error: nil)
-        player.prepareToPlay()
-        
+       
         
     }
     @IBAction func timerBtn(sender: UIButton) {
@@ -61,7 +56,7 @@ class TimerViewController: UIViewController,AVAudioPlayerDelegate {
             //timerを停止する.
             timer.invalidate()
             
-            bg.hidden = false
+
             button.hidden = false
             button0.hidden = false
             button1.hidden = true
@@ -148,10 +143,7 @@ class TimerViewController: UIViewController,AVAudioPlayerDelegate {
             label.text = "\(number)"
         }
     }
-    @IBAction func play(sender : UIButton){
-        player.play()
-    }
-    
+       
     
     
     

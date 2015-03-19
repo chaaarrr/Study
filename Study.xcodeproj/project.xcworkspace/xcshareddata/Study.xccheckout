@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>099B4985-3DAC-43EA-859B-52347F00FDB1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Study</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B49E4ACBD3953364DE9BF144E4E20EEE178DA9FA</key>
+		<string>https://github.com/yyyppp/Study.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Study.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B49E4ACBD3953364DE9BF144E4E20EEE178DA9FA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yyyppp/Study.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B49E4ACBD3953364DE9BF144E4E20EEE178DA9FA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B49E4ACBD3953364DE9BF144E4E20EEE178DA9FA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Study</string>
+		</dict>
+	</array>
+</dict>
+</plist>
