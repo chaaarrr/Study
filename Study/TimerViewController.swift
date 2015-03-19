@@ -29,10 +29,8 @@ class TimerViewController: UIViewController {
     
     @IBOutlet var stbutton : UIButton!
     
-    @IBOutlet var bg : UIImageView!
     @IBOutlet var label : UILabel!
     @IBOutlet var labelfun : UILabel!
-    @IBOutlet var button : UIButton!
     
     
     override func viewDidLoad() {
@@ -57,8 +55,8 @@ class TimerViewController: UIViewController {
             timer.invalidate()
             
 
-            button.hidden = false
-            button0.hidden = false
+
+            button0.hidden = true
             button1.hidden = true
             button2.hidden = true
             button3.hidden = true

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -193,24 +193,13 @@
                                     <action selector="bt0" destination="8KE-OI-gsU" eventType="touchUpInside" id="SRe-Ne-1lS"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYS-Sc-YW9">
-                                <rect key="frame" x="123" y="28" width="60" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="再生">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="play:" destination="8KE-OI-gsU" eventType="touchUpInside" id="Bdo-Hi-4xc"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCG-Xs-NBP">
                                 <rect key="frame" x="240" y="398" width="30" height="30"/>
                                 <state key="normal" title="次へ">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="196-fq-pg5" kind="presentation" id="6HY-3A-JNX"/>
+                                    <segue destination="NFZ-p5-ngI" kind="presentation" id="oqk-fL-rGn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -218,7 +207,6 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="button" destination="YYS-Sc-YW9" id="hlb-oU-Ps7"/>
                         <outlet property="button0" destination="0Zo-Ug-dHl" id="D8S-uD-8tn"/>
                         <outlet property="button1" destination="uBs-Qa-SzI" id="bbK-Zp-TBm"/>
                         <outlet property="button2" destination="Z0t-vQ-TYI" id="RIj-nm-uBI"/>
@@ -238,10 +226,61 @@
             </objects>
             <point key="canvasLocation" x="595" y="136"/>
         </scene>
-        <!--View Controller-->
+        <!--Music View Controller-->
+        <scene sceneID="gY6-mR-f4S">
+            <objects>
+                <viewController id="NFZ-p5-ngI" customClass="musicViewController" customModule="Study" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0oT-pl-AiV"/>
+                        <viewControllerLayoutGuide type="bottom" id="awY-ih-A4g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jvt-bL-UVK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toshoshitu1.png" translatesAutoresizingMaskIntoConstraints="NO" id="L2T-O2-fEl">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sho1.png" translatesAutoresizingMaskIntoConstraints="NO" id="i72-zc-Pe2">
+                                <rect key="frame" x="0.0" y="-37" width="320" height="605"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl1.png" translatesAutoresizingMaskIntoConstraints="NO" id="rL5-sC-mSQ">
+                                <rect key="frame" x="60" y="175" width="212" height="393"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl2.png" translatesAutoresizingMaskIntoConstraints="NO" id="vFP-qN-IjI">
+                                <rect key="frame" x="51" y="183" width="240" height="385"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HW8-Dt-tFk">
+                                <rect key="frame" x="44" y="84" width="30" height="30"/>
+                                <state key="normal" title="再生">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="NFZ-p5-ngI" eventType="touchUpInside" id="lh5-I6-YiO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lO-3Z-L91">
+                                <rect key="frame" x="232" y="84" width="30" height="30"/>
+                                <state key="normal" title="次">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="XgH-fX-HWo" kind="presentation" id="6rd-Ja-Q4k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vqh-Wr-rAP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1079" y="173"/>
+        </scene>
+        <!--View Controller2-->
         <scene sceneID="cXJ-iN-UQj">
             <objects>
-                <viewController id="XgH-fX-HWo" sceneMemberID="viewController">
+                <viewController id="XgH-fX-HWo" customClass="ViewController2" customModule="Study" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EzK-DV-irm"/>
                         <viewControllerLayoutGuide type="bottom" id="ogS-Nm-GJD"/>
@@ -253,6 +292,18 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="uramon.png" translatesAutoresizingMaskIntoConstraints="NO" id="xyU-4U-tQc">
                                 <rect key="frame" x="0.0" y="-8" width="320" height="576"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sze-VH-kyx">
+                                <rect key="frame" x="48" y="64" width="55" height="37"/>
+                                <state key="normal" title="Button" image="speaker.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6sk-3q-40i">
+                                <rect key="frame" x="219" y="64" width="54" height="37"/>
+                                <state key="normal" title="Button" image="speaker.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -262,54 +313,6 @@
             </objects>
             <point key="canvasLocation" x="1518" y="159"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="qyu-XK-5Oo">
-            <objects>
-                <viewController id="196-fq-pg5" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="QHY-Mx-T5W"/>
-                        <viewControllerLayoutGuide type="bottom" id="Sfw-d9-Kpx"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="JG6-gs-v82">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sho1.png" translatesAutoresizingMaskIntoConstraints="NO" id="hm1-w1-cLW">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="581"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toshoshitu1.png" translatesAutoresizingMaskIntoConstraints="NO" id="AGW-j4-9S1">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl1.png" translatesAutoresizingMaskIntoConstraints="NO" id="oNH-7M-b7S">
-                                <rect key="frame" x="19" y="158" width="282" height="410"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFt-77-3uj">
-                                <rect key="frame" x="245" y="45" width="30" height="30"/>
-                                <state key="normal" title="次へ">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="XgH-fX-HWo" kind="presentation" id="fC1-OW-AyN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9I-Q9-9cF">
-                                <rect key="frame" x="16" y="45" width="30" height="30"/>
-                                <state key="normal" title="再生">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl2.png" translatesAutoresizingMaskIntoConstraints="NO" id="OEB-cF-BxO">
-                                <rect key="frame" x="40" y="169" width="240" height="399"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ozm-Ei-Cjl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1062" y="182"/>
-        </scene>
     </scenes>
     <resources>
         <image name="girl1.png" width="300" height="400"/>
@@ -317,6 +320,7 @@
         <image name="kyoushitu.jpg" width="800" height="600"/>
         <image name="seimon.jpg" width="800" height="600"/>
         <image name="sho1.png" width="800" height="600"/>
+        <image name="speaker.png" width="270" height="220"/>
         <image name="toshoshitu1.png" width="800" height="600"/>
         <image name="uramon.png" width="800" height="600"/>
     </resources>

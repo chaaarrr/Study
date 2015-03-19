@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E834D6B41ABA614B0041BF9F /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834D6B31ABA614B0041BF9F /* ViewController3.swift */; };
+		E834D6B41ABA614B0041BF9F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834D6B31ABA614B0041BF9F /* ViewController2.swift */; };
 		E834D6B61ABA61D60041BF9F /* 2.WAV in Resources */ = {isa = PBXBuildFile; fileRef = E834D6B51ABA61D60041BF9F /* 2.WAV */; };
 		E834D6B81ABA65380041BF9F /* sho1.png in Resources */ = {isa = PBXBuildFile; fileRef = E834D6B71ABA65380041BF9F /* sho1.png */; };
 		E834D6BA1ABA65E10041BF9F /* toshoshitu1.png in Resources */ = {isa = PBXBuildFile; fileRef = E834D6B91ABA65E10041BF9F /* toshoshitu1.png */; };
 		E834D6BC1ABA67780041BF9F /* uramon.png in Resources */ = {isa = PBXBuildFile; fileRef = E834D6BB1ABA67780041BF9F /* uramon.png */; };
+		E8A311761ABB287C004EC14F /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = E8A311751ABB287C004EC14F /* speaker.png */; };
+		E8A311781ABB2C2A004EC14F /* musicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A311771ABB2C2A004EC14F /* musicViewController.swift */; };
 		E8C03E1F1AAFF7FE0098E5D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C03E1E1AAFF7FE0098E5D1 /* AppDelegate.swift */; };
 		E8C03E211AAFF7FE0098E5D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C03E201AAFF7FE0098E5D1 /* ViewController.swift */; };
 		E8C03E241AAFF7FE0098E5D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E221AAFF7FE0098E5D1 /* Main.storyboard */; };
@@ -27,7 +29,6 @@
 		E8C03E501AAFFA030098E5D1 /* heya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E451AAFFA030098E5D1 /* heya.jpg */; };
 		E8C03E511AAFFA030098E5D1 /* kyoushitu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E461AAFFA030098E5D1 /* kyoushitu.jpg */; };
 		E8C03E521AAFFA030098E5D1 /* seimon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E471AAFFA030098E5D1 /* seimon.jpg */; };
-		E8C03E531AAFFA030098E5D1 /* speaker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E481AAFFA030098E5D1 /* speaker.jpg */; };
 		E8C03E541AAFFA030098E5D1 /* title.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E491AAFFA030098E5D1 /* title.jpg */; };
 		E8C03E561AAFFA700098E5D1 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C03E551AAFFA700098E5D1 /* TimerViewController.swift */; };
 		E8C03E581AAFFAD00098E5D1 /* voice1.WAV in Resources */ = {isa = PBXBuildFile; fileRef = E8C03E571AAFFAD00098E5D1 /* voice1.WAV */; };
@@ -44,11 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E834D6B31ABA614B0041BF9F /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		E834D6B31ABA614B0041BF9F /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		E834D6B51ABA61D60041BF9F /* 2.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.WAV; sourceTree = "<group>"; };
 		E834D6B71ABA65380041BF9F /* sho1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sho1.png; sourceTree = "<group>"; };
 		E834D6B91ABA65E10041BF9F /* toshoshitu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toshoshitu1.png; sourceTree = "<group>"; };
 		E834D6BB1ABA67780041BF9F /* uramon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uramon.png; sourceTree = "<group>"; };
+		E8A311751ABB287C004EC14F /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker.png; sourceTree = "<group>"; };
+		E8A311771ABB2C2A004EC14F /* musicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = musicViewController.swift; sourceTree = "<group>"; };
 		E8C03E191AAFF7FE0098E5D1 /* Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C03E1D1AAFF7FE0098E5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C03E1E1AAFF7FE0098E5D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +71,6 @@
 		E8C03E451AAFFA030098E5D1 /* heya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heya.jpg; sourceTree = "<group>"; };
 		E8C03E461AAFFA030098E5D1 /* kyoushitu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyoushitu.jpg; sourceTree = "<group>"; };
 		E8C03E471AAFFA030098E5D1 /* seimon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seimon.jpg; sourceTree = "<group>"; };
-		E8C03E481AAFFA030098E5D1 /* speaker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = speaker.jpg; sourceTree = "<group>"; };
 		E8C03E491AAFFA030098E5D1 /* title.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = title.jpg; sourceTree = "<group>"; };
 		E8C03E551AAFFA700098E5D1 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		E8C03E571AAFFAD00098E5D1 /* voice1.WAV */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = voice1.WAV; sourceTree = "<group>"; };
@@ -116,7 +118,8 @@
 				E8C03E1E1AAFF7FE0098E5D1 /* AppDelegate.swift */,
 				E8C03E201AAFF7FE0098E5D1 /* ViewController.swift */,
 				E8C03E551AAFFA700098E5D1 /* TimerViewController.swift */,
-				E834D6B31ABA614B0041BF9F /* ViewController3.swift */,
+				E834D6B31ABA614B0041BF9F /* ViewController2.swift */,
+				E8A311771ABB2C2A004EC14F /* musicViewController.swift */,
 				E8C03E251AAFF7FE0098E5D1 /* Images.xcassets */,
 				E834D6B71ABA65380041BF9F /* sho1.png */,
 				E834D6BB1ABA67780041BF9F /* uramon.png */,
@@ -161,6 +164,7 @@
 			children = (
 				E8C03E3F1AAFFA030098E5D1 /* 2.jpg */,
 				E8C03E401AAFFA030098E5D1 /* daimei1.jpg */,
+				E8A311751ABB287C004EC14F /* speaker.png */,
 				E8C03E411AAFFA030098E5D1 /* daimei1.png */,
 				E8C03E421AAFFA030098E5D1 /* girl1.png */,
 				E8C03E431AAFFA030098E5D1 /* girl2.png */,
@@ -168,7 +172,6 @@
 				E8C03E451AAFFA030098E5D1 /* heya.jpg */,
 				E8C03E461AAFFA030098E5D1 /* kyoushitu.jpg */,
 				E8C03E471AAFFA030098E5D1 /* seimon.jpg */,
-				E8C03E481AAFFA030098E5D1 /* speaker.jpg */,
 				E8C03E491AAFFA030098E5D1 /* title.jpg */,
 			);
 			name = img;
@@ -254,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A311761ABB287C004EC14F /* speaker.png in Resources */,
 				E8C03E4C1AAFFA030098E5D1 /* daimei1.png in Resources */,
 				E8C03E241AAFF7FE0098E5D1 /* Main.storyboard in Resources */,
 				E8C03E541AAFFA030098E5D1 /* title.jpg in Resources */,
@@ -263,7 +267,6 @@
 				E8C03E4F1AAFFA030098E5D1 /* haikei.gif in Resources */,
 				E834D6BC1ABA67780041BF9F /* uramon.png in Resources */,
 				E8C03E4B1AAFFA030098E5D1 /* daimei1.jpg in Resources */,
-				E8C03E531AAFFA030098E5D1 /* speaker.jpg in Resources */,
 				E834D6B81ABA65380041BF9F /* sho1.png in Resources */,
 				E8C03E4E1AAFFA030098E5D1 /* girl2.png in Resources */,
 				E834D6BA1ABA65E10041BF9F /* toshoshitu1.png in Resources */,
@@ -291,7 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8C03E211AAFF7FE0098E5D1 /* ViewController.swift in Sources */,
-				E834D6B41ABA614B0041BF9F /* ViewController3.swift in Sources */,
+				E834D6B41ABA614B0041BF9F /* ViewController2.swift in Sources */,
+				E8A311781ABB2C2A004EC14F /* musicViewController.swift in Sources */,
 				E8C03E561AAFFA700098E5D1 /* TimerViewController.swift in Sources */,
 				E8C03E1F1AAFF7FE0098E5D1 /* AppDelegate.swift in Sources */,
 			);
