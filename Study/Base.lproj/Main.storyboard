@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kyoushitu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Vab-jX-zc4">
-                                <rect key="frame" x="118" y="-99" width="339" height="667"/>
+                                <rect key="frame" x="-9" y="0.0" width="339" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBs-Qa-SzI">
                                 <rect key="frame" x="80" y="305" width="30" height="30"/>
@@ -193,7 +193,7 @@
                                     <action selector="bt0" destination="8KE-OI-gsU" eventType="touchUpInside" id="SRe-Ne-1lS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCG-Xs-NBP">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCG-Xs-NBP">
                                 <rect key="frame" x="222" y="20" width="72" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="次へ">
@@ -221,6 +221,7 @@
                         <outlet property="button9" destination="vVL-YK-jL2" id="f1E-rj-dpI"/>
                         <outlet property="label" destination="8op-YW-Pwd" id="VVv-hV-E8J"/>
                         <outlet property="labelfun" destination="Tbp-op-dEh" id="Fd6-0y-3PL"/>
+                        <outlet property="nextbutton" destination="YCG-Xs-NBP" id="v6r-8W-Vr9"/>
                         <outlet property="stbutton" destination="FrU-Ya-Zbs" id="XmX-aM-Rtc"/>
                     </connections>
                 </viewController>
@@ -243,14 +244,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toshoshitu1.png" translatesAutoresizingMaskIntoConstraints="NO" id="L2T-O2-fEl">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sho1.png" translatesAutoresizingMaskIntoConstraints="NO" id="i72-zc-Pe2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="605"/>
+                            </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl1.png" translatesAutoresizingMaskIntoConstraints="NO" id="rL5-sC-mSQ">
                                 <rect key="frame" x="60" y="175" width="212" height="393"/>
                             </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl2.png" translatesAutoresizingMaskIntoConstraints="NO" id="vFP-qN-IjI">
                                 <rect key="frame" x="51" y="183" width="240" height="385"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sho1.png" translatesAutoresizingMaskIntoConstraints="NO" id="i72-zc-Pe2">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="605"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHA-Oo-v5c">
                                 <rect key="frame" x="209" y="45" width="82" height="44"/>
@@ -324,10 +325,20 @@
                                     <action selector="play:" destination="XgH-fX-HWo" eventType="touchUpInside" id="yo9-b3-Wu9"/>
                                 </connections>
                             </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl1.png" translatesAutoresizingMaskIntoConstraints="NO" id="qTL-GF-8bc">
+                                <rect key="frame" x="54" y="225" width="240" height="343"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl2.png" translatesAutoresizingMaskIntoConstraints="NO" id="eCh-vM-vaU">
+                                <rect key="frame" x="64" y="256" width="240" height="312"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="girl1" destination="qTL-GF-8bc" id="PEs-Ua-eU8"/>
+                        <outlet property="girl2" destination="eCh-vM-vaU" id="EGx-hu-ECt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P2u-s2-ZAx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

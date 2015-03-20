@@ -28,6 +28,7 @@ class TimerViewController: UIViewController {
     @IBOutlet var button9 :UIButton!
     
     @IBOutlet var stbutton : UIButton!
+    @IBOutlet var nextbutton : UIButton!
     
     @IBOutlet var label : UILabel!
     @IBOutlet var labelfun : UILabel!
@@ -69,6 +70,7 @@ class TimerViewController: UIViewController {
             label.hidden = true
             labelfun.hidden = true
             stbutton.hidden = true
+            nextbutton.hidden = false
             
             
         }

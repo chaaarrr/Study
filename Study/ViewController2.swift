@@ -13,7 +13,8 @@ class ViewController2: UIViewController,AVAudioPlayerDelegate {
     var musicinfo = musicViewController()
     var info = 0
 
-    
+    @IBOutlet var girl1 : UIImageView!
+    @IBOutlet var girl2 : UIImageView!
     var audioPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("voice1", ofType: "WAV")!)
     var audioPath2 = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("2", ofType: "WAV")!)
     
@@ -32,14 +33,20 @@ class ViewController2: UIViewController,AVAudioPlayerDelegate {
         player.prepareToPlay()
         player2 = AVAudioPlayer(contentsOfURL: audioPath2, error: nil)
         player2.prepareToPlay()
+        girl1.hidden = true
+        girl2.hidden = true
         
 
     }
     @IBAction func play(sender: UIButton) {
         if(info == 1){
+            girl1.hidden = false
+            girl2.hidden = true
             
            player.play()
         }else{
+            girl1.hidden = true
+            girl2.hidden = false
             
            
             player2.play()
