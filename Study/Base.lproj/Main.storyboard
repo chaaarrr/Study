@@ -57,7 +57,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kyoushitu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Vab-jX-zc4">
-                                <rect key="frame" x="0.0" y="-99" width="339" height="667"/>
+                                <rect key="frame" x="118" y="-99" width="339" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBs-Qa-SzI">
                                 <rect key="frame" x="80" y="305" width="30" height="30"/>
@@ -194,8 +194,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YCG-Xs-NBP">
-                                <rect key="frame" x="240" y="398" width="30" height="30"/>
+                                <rect key="frame" x="222" y="20" width="72" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="次へ">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -241,41 +243,62 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toshoshitu1.png" translatesAutoresizingMaskIntoConstraints="NO" id="L2T-O2-fEl">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sho1.png" translatesAutoresizingMaskIntoConstraints="NO" id="i72-zc-Pe2">
-                                <rect key="frame" x="0.0" y="-37" width="320" height="605"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl1.png" translatesAutoresizingMaskIntoConstraints="NO" id="rL5-sC-mSQ">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl1.png" translatesAutoresizingMaskIntoConstraints="NO" id="rL5-sC-mSQ">
                                 <rect key="frame" x="60" y="175" width="212" height="393"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl2.png" translatesAutoresizingMaskIntoConstraints="NO" id="vFP-qN-IjI">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girl2.png" translatesAutoresizingMaskIntoConstraints="NO" id="vFP-qN-IjI">
                                 <rect key="frame" x="51" y="183" width="240" height="385"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HW8-Dt-tFk">
-                                <rect key="frame" x="44" y="84" width="30" height="30"/>
-                                <state key="normal" title="再生">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sho1.png" translatesAutoresizingMaskIntoConstraints="NO" id="i72-zc-Pe2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="605"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHA-Oo-v5c">
+                                <rect key="frame" x="209" y="45" width="82" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="次へ">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="play:" destination="NFZ-p5-ngI" eventType="touchUpInside" id="lh5-I6-YiO"/>
+                                    <segue destination="XgH-fX-HWo" kind="presentation" id="abf-LM-RxD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lO-3Z-L91">
-                                <rect key="frame" x="232" y="84" width="30" height="30"/>
-                                <state key="normal" title="次">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXc-UP-tqM">
+                                <rect key="frame" x="130" y="45" width="82" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="再生">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="XgH-fX-HWo" kind="presentation" id="6rd-Ja-Q4k"/>
+                                    <action selector="play:" destination="NFZ-p5-ngI" eventType="touchUpInside" id="n4z-Z4-1Gb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saV-km-SaV">
+                                <rect key="frame" x="28" y="43" width="75" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="戻る">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8KE-OI-gsU" kind="presentation" id="a9p-zr-1g0"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="bg1" destination="L2T-O2-fEl" id="heC-F5-cY5"/>
+                        <outlet property="bg2" destination="i72-zc-Pe2" id="1su-Um-Lsi"/>
+                        <outlet property="girl1" destination="rL5-sC-mSQ" id="XN3-rR-dfu"/>
+                        <outlet property="girl2" destination="vFP-qN-IjI" id="IQQ-V6-lkG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vqh-Wr-rAP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1079" y="173"/>
+            <point key="canvasLocation" x="1076" y="159"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="cXJ-iN-UQj">
@@ -293,16 +316,13 @@
                                 <rect key="frame" x="0.0" y="-8" width="320" height="576"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sze-VH-kyx">
-                                <rect key="frame" x="48" y="64" width="55" height="37"/>
+                                <rect key="frame" x="133" y="14" width="55" height="37"/>
                                 <state key="normal" title="Button" image="speaker.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6sk-3q-40i">
-                                <rect key="frame" x="219" y="64" width="54" height="37"/>
-                                <state key="normal" title="Button" image="speaker.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <connections>
+                                    <action selector="play:" destination="XgH-fX-HWo" eventType="touchUpInside" id="yo9-b3-Wu9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -324,4 +344,7 @@
         <image name="toshoshitu1.png" width="800" height="600"/>
         <image name="uramon.png" width="800" height="600"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="a9p-zr-1g0"/>
+    </inferredMetricsTieBreakers>
 </document>
